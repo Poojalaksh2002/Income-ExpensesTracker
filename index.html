@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="ledger">
+            <h1>Income Expenses Tracker</h1>
+            <h3>Your Balance</h3>
+            <h2 id="balance"> ₹0.00</h2>
+
+            <div class="inner-div">
+                <div class="box1">
+                    <h2>Income</h2>
+                    <h3 id="income">₹0.00</h3>
+                </div>
+                <div class="box2">
+                    <h2>Expenses</h2>
+                    <h3 id="expenses">₹0.00</h3>
+                </div>
+            </div>
+            <form id="form">
+                <h3>Description</h2>
+                    <input id="description" type="text" placeholder="Enter Description">
+                    <h3>Amount</h2>
+                    <input id="amount" type="text" placeholder="Enter Amount">
+                    <button id="btn1">Add Transaction</button>
+            </form>
+        </div>
+        <div class="trans-details">
+          <h1 id="heading">Transaction Details</h1>
+          <div class="container2">
+            <!-- <div class="items" id="exp">
+                <h3>Insurance</h3>
+                <h3>-1500</h3>
+                <button class="cancel">X</button>
+            </div>            
+            <div  class="items" id="inc">
+                <h3>Salary</h3>
+                <h3>2500</h3>
+                <button class="cancel">X</button>
+            </div>
+            <div  class="items" id="exp">
+                <h3>Flower</h3>
+                <h3>-100</h3>
+                <button class="cancel">X</button>
+            </div> -->
+          </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
